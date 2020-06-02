@@ -96,7 +96,7 @@ Stretch Questions
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     h1, p, and section are diplay block by default, while button, img and textarea are inline by default. 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-    The box model dictates that all the things we see on a webpage are boxes of varying size. These boxes contain further boxes within themselves, who's value are controlled by the width, height, border, padding and margin properties. 
+    The box model dictates that all the things we see on a webpage are boxes of varying size. These boxes contain further boxes within themselves, whose values are controlled by the width, height, border, padding and margin properties. 
     The size of the content, the innermost box (think of the smallest internal doll in a set of Matryoshka nesting dolls) can be controlled with width and height, but usually just width
     The size of the whitespace between the border of the box and the content within is controlled with the padding property. 
     And finally the space between the border (and the whole box as you visually see it) is controlled by the margin property. 
