@@ -74,17 +74,32 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     35. How often should I commit to github?
     Every 20 minutes or so
     36. What is the command we would use to push our repo up to github? 
-    
+    git push -u origin branch-name 
     37. Walk me through Lambda's git flow. 
+    Go to the master github page and fork the directory. Your name should now appear in front of your copy. 
+    At your forked page, through settings add collaborators (i.e. your TL) 
+    Using the green "make a clone" form box select the url and copy it. 
+    Using git on your computer, us cd to enter the folder you want the incoming file to live in. 
+    Using the "git clone" command, follow this with the URL you just copied. This downloads the file to your machine. 
+    Use cd to enter the new directory, and git checkout -b your-name to create a branch. From here you can work on your directory until you have content to save. 
+    Use git add . to save changes made on your machine, followed by git commit -m "details about your changes" to provide additional information.
+    To save your changes to github proper enter git push -u origin file-name, and voila! Refreshing on github will show your changes on your branch page. 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    An inline element flows on the same line, as space allows, as other elements, while a block element populates on a new line. 
     2. What happens when an element is positioned absolutely? 
+    The element is inserted into its own layer, separate from the rest of the document flow.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    <!-- I do not know the answer to this problem -->
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    h1, p, and section are diplay block by default, while button, img and textarea are inline by default. 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+    The box model dictates that all the things we see on a webpage are boxes of varying size. These boxes contain further boxes within themselves, who's value are controlled by the width, height, border, padding and margin properties. 
+    The size of the content, the innermost box (think of the smallest internal doll in a set of Matryoshka nesting dolls) can be controlled with width and height, but usually just width
+    The size of the whitespace between the border of the box and the content within is controlled with the padding property. 
+    And finally the space between the border (and the whole box as you visually see it) is controlled by the margin property. 
 
 
    --> 
