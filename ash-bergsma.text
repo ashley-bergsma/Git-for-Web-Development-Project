@@ -1,0 +1,105 @@
+URL to forked codepen: https://codepen.io/AElizaBergs/pen/zYrYqmN
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Semantic HTML is used to give your code meaning and demarcation 
+    2. What is HTML used for? 
+    HTML is used display electronic documents on the web. 
+    3. What is an attribute and where do we put it? 
+    An attribute to provide additional information and assign values to an HTML element. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The H1 tag denotes the most important headline on the document, and should only be used once. 
+    5. Name two tags that have required attributes
+    <img> and <a>
+    6. What do we put in the head of our HTML document? 
+    Information about the website, such as the title
+    7. What is an id? 
+    An id is a way to specify one element 
+    8. What elements can I add an id to? 
+    An id can be used on any HTML element
+    9. How many times can I use the same id on a page? 
+    Once 
+    10. What is a class? 
+    A class is a way to specify a group of elements in an HTML document.
+    11. What elements can I add a class to? 
+    Any HTML element 
+    12. How many times can I use the same class on a page? 
+    Multiple times, depending on how you want the elements grouped for styling. 
+    13. How do I get my link to open in a new tab?
+    <a href="url" target="_blank">
+    14. What is the alt attribute in the image tag used for? 
+    To describe the content of the photo for a screen reader/seo
+    15. How do I reference an id?
+    #
+    16. What is the difference between a section and a div
+    A section defines different parts of the html document, like a chapter, while a div groups elements for easier styling
+    17. What is CSS used for? 
+    Styling the look of a webpage 
+    18. How to we select an element? Example - every h2 on the page
+    h2 { styling-rule: values;}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    An id defines one element on the page, and could be used in sections, for example, to provide quick navigation on a page. A class groups elements for styling, such as differentiating/linking text blocks color or fonts.
+    20. How do we select classes in CSS?
+    .
+    21. How do we select a p element with a single class of “human””?
+    p.human {}
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector selects elements that are the direct children of a chosen element. 
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a {}
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    line-height: value;
+    26. What do we use to change the spacing between letters?
+    letter-spacing: value;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase; (lowercase) (capitalize;) 
+    28. How do I add a 1px border around my div that is dotted and black?
+    div { border: 1 px solid black;}
+    29. How do I select everything on the page? 
+    * {}
+    30. How do I write a comment in CSS?
+    <!-- -->
+    31. How do I find out what file I am in, when I am using the command line? 
+    $ pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm - you must be careful when using this as it is permanent 
+    34. Why should I use version control? 
+    Version control allows teams to work on a document together without breaking the master
+    35. How often should I commit to github?
+    Every 20 minutes or so
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name 
+    37. Walk me through Lambda's git flow. 
+    Go to the master github page and fork the directory. Your name should now appear in front of your copy. 
+    At your forked page, through settings add collaborators (i.e. your TL) 
+    Using the green "make a clone" form box select the url and copy it. 
+    Using git on your computer, us cd to enter the folder you want the incoming file to live in. 
+    Using the "git clone" command, follow this with the URL you just copied. This downloads the file to your machine. 
+    Use cd to enter the new directory, and git checkout -b your-name to create a branch. From here you can work on your directory until you have content to save. 
+    Use git add . to save changes made on your machine, followed by git commit -m "details about your changes" to provide additional information.
+    To save your changes to github proper enter git push -u origin file-name, and voila! Refreshing on github will show your changes on your branch page. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    An inline element flows on the same line, as space allows, as other elements, while a block element populates on a new line. 
+    2. What happens when an element is positioned absolutely? 
+    The element is inserted into its own layer, separate from the rest of the document flow.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    <!-- I do not know the answer to this problem -->
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    h1, p, and section are diplay block by default, while button, img and textarea are inline by default. 
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    The box model dictates that all the things we see on a webpage are boxes of varying size. These boxes contain further boxes within themselves, whose values are controlled by the width, height, border, padding and margin properties. 
+    The size of the content, the innermost box (think of the smallest internal doll in a set of Matryoshka nesting dolls) can be controlled with width and height, but usually just width
+    The size of the whitespace between the border of the box and the content within is controlled with the padding property. 
+    And finally the space between the border (and the whole box as you visually see it) is controlled by the margin property. 
+
+
+   --> 
